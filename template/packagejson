@@ -1,8 +1,8 @@
 {
-  "name": "<%= name %>",
+  "name": "{{name}}",
   "version": "1.0.0",
-  "description": "<%= description %>",
-  "author": "",
+  "description": "{{description}}",
+  "author": "{{author}}",
   "private": true,
   "scripts": {
     "watchify": "watchify -vd -p browserify-hmr -e src/main.js -o dist/build.js",
